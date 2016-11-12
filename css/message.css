@@ -1,0 +1,142 @@
+html{
+	width: 100%;
+}
+
+body{
+	width: 100%;
+}
+#msg_box{
+	width:9.375rem;
+	/*height: 500px;*/
+	border-radius:0.052083rem;
+	border: 1px solid #ccc;
+	overflow: hidden;
+	position: fixed;
+	left: 50%;
+	margin-left: -4.6875rem;
+	background-color:lightgray;
+	z-index: 999;
+}
+#msg_title{
+	text-align: center;
+	font-weight: bolder;
+	font-size:0.52rem;
+	line-height: 0.65rem;
+	background-color: #000;
+	border-bottom: 1px solid #ccc;
+	color: #fbf204;
+	margin-bottom: 0.2rem;
+	position: relative;
+}
+.msg_close{
+	position: absolute;
+	top: 0.052083rem;
+	right: 0.052083rem;
+	color: #fff;
+	font-family: arial;
+	font-size:0.52rem;
+	line-height: 100%;
+	cursor: pointer;
+}
+#msg_left{
+	width:30%;
+	float: left;
+}
+#msg_right{
+	width:70%;
+	float: left;
+	font-size: 0.3rem;
+	padding-right:0.5rem;
+	box-sizing: border-box;
+}
+#msg_left>label{
+	text-align: right;
+	letter-spacing:0.260417rem;
+	line-height:1.0rem;
+	font-size:0.42rem;
+	display: block;
+}
+#msg_name,#msg_phone{
+	width: 100%;
+	font-size:0.42rem;
+	margin:0.22rem 0;
+}
+#msg_package_box{
+	line-height:0.5rem;
+	margin-top: 0.22rem;
+}
+#msg_package_box div{
+	margin-bottom: 0.2rem;
+	padding-left: 0.2rem;
+}
+#msg_package_box div input{
+	margin-right: 0.2rem;
+}
+.msg_package{
+	width: 0.3125rem;
+	height: 0.3125rem;
+}
+#msg_package_box>label:not(label:last-child){
+	font-size: 0.520833rem;
+	margin-right:0.041667rem;
+
+}
+#msg_content{
+	margin-top: 0.041667rem;
+	resize: none;
+	width: 100%;
+	height: 1.302083rem;
+	font-size:0.083333rem;
+}
+.content_label{
+	margin-top: 2.6rem;
+}
+#msg_reset,#msg_submit{
+	width:2.0rem;
+	font-size: 0.42rem;
+	padding:0.052083rem 0.104167rem;
+	margin: 0.104167rem;
+	background: #000;
+	color: yellow;
+	/*border: none;*/
+	/*background-color: transparent;*/
+}
+.submitbox{
+	width: 5rem;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#msg_test_box{
+	text-align: left;
+	clear: both;
+	font-size: 0;
+}
+#msg_test_font{
+	width: 3.0rem;
+	text-align: right;
+	display: inline-block;
+	letter-spacing:0.083333rem;
+	line-height:0.166667rem;
+	font-size: 0.42rem;
+}
+#msg_test{
+	width:2.5rem;
+	font-size: 0.42rem;
+	margin:0.5rem 0;
+}
+#msg_test_img{
+	border: 1px solid #ccc;
+	cursor: pointer;
+	margin: 0  0 0 0.052083rem;
+	position: relative;
+	top:0.2rem;
+	height: 0.5rem;
+
+}
+.msg_msg{
+	position: relative;
+	z-index: 500;
+	top: -5.5rem;
+	left: 2rem;
+	color: #b90810;
+}

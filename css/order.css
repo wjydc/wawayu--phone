@@ -1,0 +1,291 @@
+body{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	height: 100%;
+}
+html{
+	font-size: 100px;
+	font-family:my,"微软雅黑",arial;
+	overflow: hidden;
+	height: 100%;
+}
+.container{
+	margin: 0 auto;
+	height: 100%;
+}
+*{
+	margin:0;
+	padding: 0;
+}
+.auto{
+	margin: 0 auto;	
+}
+.center{
+	text-align: center;
+}
+.block{
+	display: block;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+a{
+	text-decoration: none;
+}
+@font-face{
+	font-family: my;
+	src:url(../css/方正兰亭黑简.woff) format('woff'),
+		url(../css/方正兰亭黑简.TTF) format('truetype');
+}
+@font-face{
+	font-family: content;
+	src:url(../css/方正兰亭超细黑简体.woff) format('woff'),
+		url(../css/方正兰亭超细黑简体.TTF) format('truetype');
+}
+
+.order_box{
+	width: 100%;
+	height: 100%;
+	padding-bottom: 0.5rem;
+	margin-bottom: 0.5rem;
+
+}
+.order_box_inner{
+	width: 100%;
+	border: 1px solid lightgray;
+	background: #fff;
+	padding-bottom: 0.5rem;
+}
+.order_box_title{
+	font-size: 0.5rem;
+	background: #000;
+	color: yellow;
+	margin-bottom: 0.3rem;
+	padding:0.3rem;
+}
+.details_box{
+	width: 90%;
+	overflow: hidden;
+	padding-bottom: 0.3rem;
+	padding-left: 0.3rem;
+	padding-right: 0.3rem;
+	
+}
+.buynow{
+	margin-top: 0.5rem;
+	padding: 0.2rem;
+	background: #4f4f4f;
+	border-radius: 0.05rem;
+	font-size: 0.4rem;
+	font-weight: bold;
+	color: yellow;
+}
+.buynow:hover {
+    text-decoration:none;
+}
+.details_box_left{
+	width: 100%;
+}
+.details_box_left img{
+	width: 100%;
+	height: 100%;
+}
+.details_box_right{
+	width: 100%;
+	background: #f4f4f4;
+	padding-left: 0.1rem;
+	position: relative;
+	padding-bottom: 0.5rem;
+}
+.details_price_box{
+	// height: 1rem;
+	line-height: 0.6rem;
+	vertical-align: middle;
+	font-size: 0.45rem;
+	padding: 0.25rem;
+	border-bottom: 1px solid #dadada;
+	position: relative;
+}
+.details_price{
+	font-size: 0.4rem;
+	color: #ff3e00;
+}
+.details_price_box a{
+	padding: 0.05rem;
+	background: #e2e1e7;
+	border-radius: 0.05rem;
+	font-size: 0.2rem;
+	color: #3ea4b0;
+}
+.details_search{
+	margin-left: 0.1rem;
+	margin-right: 0.1rem;
+}
+.details_introduce_text{
+	height: 0.5rem;
+	font-size: 0.35rem;
+	line-height: 0.5rem;
+}
+.details_introduce_textleft{
+	color: #5b5b5b;
+	font-weight: bold;
+}
+.details_introduce_textright{
+	color: #6b6b6b;
+}
+
+.form_box{
+	width: 6.5rem;
+	font-size: 0.23rem;
+	margin-bottom: 0.2rem;
+}
+.form_box fieldset{
+	padding: 0.15rem;
+}
+.form_box fieldset input{
+	outline: 0;
+}
+.pay_now{
+	margin-top: 0.2rem;
+	padding: 0.1rem;
+	background: #f9d401;
+	border-radius: 0.05rem;
+	color: #fff;
+}
+.foot{
+	min-width: 14.77rem;
+	padding-bottom: 0.57rem;
+	
+}
+.foot p{
+	font-size: 0.12rem;
+	color: #afafb3;
+}
+.foot p:first-child{
+	margin-bottom: 0.2rem;
+}
+.totop{
+	width:0.63rem;
+	height:1.47rem;
+	position:fixed;
+	bottom:0.21rem;
+	right:0.21rem;
+	z-index: 100;
+}
+
+.totop .public a{
+	color:#29b572;
+	font-size:0.1rem;
+	text-align:center;
+	background:#fff;
+	width:0.63rem;
+	height:0.819rem;
+}
+
+.totop .public a img{
+	width: 70%;
+	height: 40%;
+	margin:0 0.1rem 0.1rem;
+	padding-top:0.168rem;
+}
+
+.totop .returntop{
+	cursor:pointer;
+	width:0.63rem;
+	height:0.672rem;
+	border:0;
+	background:url(http://www.jingyingba.com/Public/Home/images/returntotop.png) center no-repeat #29b572
+	}
+.totop .publicimg{
+	width:1.911rem;
+	height:1.806rem;
+	left:-2.1rem;
+	top:-0.21rem;
+	position:absolute;
+	border:none;
+	display:none
+}
+.totop .publicimg img{
+	width: 100%;
+	height: 100%;
+}
+
+
+/*导航*/
+.tabbar{
+	width: 100%;
+	line-height: 1.5rem;
+	background-color:black;
+	text-align: center;
+	position:fixed;
+	bottom: 0;
+	right: 0;
+	z-index: 100;
+	border-top: 1px solid lightgray;
+}
+.tabbar a{
+	text-decoration: none;
+	float: left;
+	width: 20%;
+	box-sizing: border-box;
+	height: 1.2rem;
+	display:block;
+	font-size: 0.36rem;
+	line-height:1.8rem;
+	color:yellow;
+	position: relative;
+	z-index: 1000;
+}
+.tabbar a:nth-child(2n){
+	border: 1px solid lightgray;
+	border-top: none;
+	border-bottom: none;
+}
+.tabbar a div{
+	position: absolute;
+	height: 0.45rem;
+	width: 0.45rem;
+	left: 50%;
+	margin-left: -0.225rem;
+	top: 0.17rem;
+	z-index: 1000;
+}
+.home{
+	background: url(../image/home.png) no-repeat;
+	background-size: 100% 100%;
+}
+.aboutusbtn{
+	background: url(../image/aboutusbtn.png) no-repeat;
+	background-size: 100% 100%;
+}
+.zixun{
+	background: url(../image/zixun.png) no-repeat;
+	background-size: 100% 100%;
+}
+.cookingbtn{
+	background: url(../image/cookingbtn.png) no-repeat;
+	background-size: 100% 100%;
+}
+.fishbtn{
+	background: url(../image/fishbtn.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
